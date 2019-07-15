@@ -1,0 +1,41 @@
+header .logo {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.main-slider {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-image: url(real-image/2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: #fff;
+}
+.ceremony-area {
+    position: relative;
+    z-index: 1;
+    background-image: url(real-image/9.jpeg);
+    background-size: cover;
+    color: #fff;
+}
+.slider-content {
+	position: relative;
+	z-index: 999;
+}
+.blackbox {
+	position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.contact-area {
+	background-color: #36393b;
+}
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
